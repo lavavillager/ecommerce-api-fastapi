@@ -1,0 +1,6 @@
+# Нормализация переводов строк.
+* text=auto eol=lf
+
+# Скрипты, исполняемые в Linux-контейнере, всегда LF.
+*.sh text eol=lf
+scripts/entrypoint.sh text eol=lf
